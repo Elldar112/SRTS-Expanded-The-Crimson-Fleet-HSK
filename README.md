@@ -3,4 +3,4 @@ An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purp
 Material, research and balance conversion for Hardcore SK Project
 Requires SRTS Expanded
 
-!(https://steamuserimages-a.akamaihd.net/ugc/1243505435164358881/B46EAF0E26AE8B831E98DCB1ECABA5B1A5071F78/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+![steamuserimages-a akamaihd](https://user-images.githubusercontent.com/64644323/158037347-82bdcf8b-9e98-45ce-a1c3-b600eec7beaa.jpg)
