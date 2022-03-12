@@ -11,5 +11,5 @@ Requires SRTS Expanded HSK patched by Szarakryik.
 ``` 
 - Material Conversion for HSK.
 - Divided research into separate for each ship, just like with original SRTS.
-- Rebalanced Speed and cargo capacity to be similiar to original SRTS ships.
+- Rebalanced speed and cargo capacity to be similar to original SRTS ships.
 - Removed bombing because of balance and CE issues.
