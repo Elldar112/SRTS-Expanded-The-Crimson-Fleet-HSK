@@ -5,6 +5,7 @@
 An Extension for SRTS Expanded mod. Adds 6 new crafts with more specialised purpose.
 
 Material, research and balance conversion for Hardcore SK Project.
+
 Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2138497005
 
 Requires SRTS Expanded HSK patched by Szarakryik.
