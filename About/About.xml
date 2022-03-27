@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>SRTS Expanded: The Crimson Fleet HSK</name>
-  <author>Ravvy</author>
-  <author>Elldar</author>
+  <author>Ravvy, Elldar</author>
   <packageId>Elldar.SRTS.TCF.HSK</packageId>
   	<modDependencies>      
 		<li>
