@@ -59,13 +59,13 @@
       <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Flickable" />
 	  <li Class="CompProperties_Power">
-	  <li Class="CompProperties_Glower">
-        <glowRadius>18</glowRadius>
-        <glowColor>(217,217,217,0)</glowColor>
-      </li>
         <compClass>CompPowerPlant</compClass>
         <basePowerConsumption>-1000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(217,217,217,0)</glowColor>
       </li>
     </comps>
     <researchPrerequisites> <!-- research requirements -->
@@ -140,10 +140,10 @@
         <basePowerConsumption>-1250</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
-	  <li Class="CompProperties_Glower">
-        <glowRadius>18</glowRadius>
+	 <li Class="CompProperties_Glower"> 
+        <glowRadius>8</glowRadius>
         <glowColor>(217,217,217,0)</glowColor>
-      </li>
+      </li> 
     </comps>
     <researchPrerequisites> <!-- research requirements -->
       <li>Research_SRTSComet</li>
@@ -222,9 +222,9 @@
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Breakdownable" />
 	  <li Class="CompProperties_Glower">
-        <glowRadius>20</glowRadius>
+        <glowRadius>14</glowRadius>
         <glowColor>(217,217,217,0)</glowColor>
-      </li>
+      </li> 
     </comps>
     <researchPrerequisites>
       <li>Research_SRTSBasilisk</li>
@@ -280,13 +280,6 @@
         <spaceFaring>false</spaceFaring>
         <shuttleBayLanding>false</shuttleBayLanding>
       </li>
-     <!-- <li Class="SRTS.CompProperties_BombsAway">
-        <numberBombs>12</numberBombs>
-        <precisionBombingNumBombs>12</precisionBombingNumBombs>
-        <radiusOfDrop>4</radiusOfDrop>
-        <speed>2</speed>
-        <distanceBetweenDrops>3</distanceBetweenDrops>
-      </li> -->
       <li Class="CompProperties_Refuelable">
         <fuelCapacity>2000</fuelCapacity>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
@@ -311,7 +304,7 @@
       <li Class="CompProperties_Flickable" />
 	  <li Class="CompProperties_Breakdownable" />
 	  <li Class="CompProperties_Glower">
-        <glowRadius>18</glowRadius>
+        <glowRadius>10</glowRadius>
         <glowColor>(217,217,217,0)</glowColor>
       </li>
     </comps>
@@ -370,13 +363,6 @@
 		    <spaceFaring>false</spaceFaring>
 		    <shuttleBayLanding>false</shuttleBayLanding>
       </li>
-     <!-- <li Class="SRTS.CompProperties_BombsAway">
-        <numberBombs>30</numberBombs>
-        <precisionBombingNumBombs>30</precisionBombingNumBombs>
-        <radiusOfDrop>5.5</radiusOfDrop>
-        <speed>1</speed>
-        <distanceBetweenDrops>1.5</distanceBetweenDrops>
-      </li> -->
       <li Class="CompProperties_Refuelable">
         <fuelCapacity>4200</fuelCapacity>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
@@ -401,7 +387,7 @@
       <li Class="CompProperties_Flickable" />
 	  <li Class="CompProperties_Breakdownable" />
 	  <li Class="CompProperties_Glower">
-        <glowRadius>18</glowRadius>
+        <glowRadius>16</glowRadius>
         <glowColor>(217,217,217,0)</glowColor>
       </li>
     </comps>
@@ -411,7 +397,7 @@
     <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
     <uiIconScale>0.65</uiIconScale>
     <killedLeavings>
-      <ChunkSlagSteel>16</ChunkSlagSteel>
+      <ChunkSlagSteel>14</ChunkSlagSteel>
     </killedLeavings>
   </ThingDef>
   
@@ -463,13 +449,6 @@
         <spaceFaring>false</spaceFaring>
         <shuttleBayLanding>false</shuttleBayLanding>
       </li>
-      <!-- <li Class="SRTS.CompProperties_BombsAway">
-        <numberBombs>80</numberBombs>
-        <precisionBombingNumBombs>80</precisionBombingNumBombs>
-        <radiusOfDrop>7.5</radiusOfDrop>
-        <speed>0.5</speed>
-        <distanceBetweenDrops>1</distanceBetweenDrops>
-      </li> -->
       <li Class="CompProperties_Refuelable">
         <fuelCapacity>15000</fuelCapacity>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
