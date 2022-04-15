@@ -15,7 +15,7 @@
       <MaxHitPoints>550</MaxHitPoints> <!-- hitpoints of the building -->
       <WorkToBuild>9200</WorkToBuild> <!-- how much work it costs to build, which is more like a base type, as more properties affect it, resulting in a different final number for construction -->
       <Flammability>0</Flammability>
-      <Mass>20</Mass> <!-- how much it weighs for a pawn to carry. My guess is they are light in this mod so pawns entering a map will throw it in their inventory rather than lose it, but i can check that later. -->
+      <Mass>3200</Mass> <!-- how much it weighs for a pawn to carry. My guess is they are light in this mod so pawns entering a map will throw it in their inventory rather than lose it, but i can check that later. -->
       <Beauty>25</Beauty> <!-- beauty on overlap, and for pawns -->
     </statBases>
     <costList> <!-- Costs to build, the names are the defNames of items -->
@@ -30,7 +30,7 @@
     <comps>
       <li Class="CompProperties_Transporter">
         <restEffectiveness>0.75</restEffectiveness>
-        <massCapacity>300</massCapacity>
+        <massCapacity>350</massCapacity>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS"> <!-- required for SRTS like functionality (ie. space ship reusable drop pod -->
         <travelSpeed>6</travelSpeed>
@@ -69,7 +69,7 @@
       </li>
     </comps>
     <researchPrerequisites> <!-- research requirements -->
-      <li>Research_SRTSSurveyor</li>
+      <li>Research_SRTSSurveyorComet</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite> <!-- construction skill requirements -->
     <uiIconScale>0.5</uiIconScale> <!-- UI scaling -->
@@ -92,35 +92,35 @@
       <MaxHitPoints>750</MaxHitPoints> <!-- hitpoints of the building -->
       <WorkToBuild>11500</WorkToBuild> <!-- how much work it costs to build, which is more like a base type, as more properties affect it, resulting in a different final number for construction -->
       <Flammability>0</Flammability> <!-- how easy it is to catch on fire (duh) -->
-      <Mass>20</Mass> <!-- how much it weighs for a pawn to carry. My guess is they are light in this mod so pawns entering a map will throw it in their inventory rather than lose it, but i can check that later. -->
+      <Mass>3200</Mass> <!-- how much it weighs for a pawn to carry. My guess is they are light in this mod so pawns entering a map will throw it in their inventory rather than lose it, but i can check that later. -->
       <Beauty>35</Beauty> <!-- beauty on overlap, and for pawns -->
     </statBases>
     <costList> <!-- Costs to build, the names are the defNames of items -->
-			<Plasteel>150</Plasteel>
-			<AluminiumBar>120</AluminiumBar>
-			<ReinforcedGlass>25</ReinforcedGlass>
-			<Plastic>30</Plastic>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>160</Plasteel>
+			<AluminiumBar>140</AluminiumBar>
+			<ReinforcedGlass>20</ReinforcedGlass>
+			<Plastic>20</Plastic>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<Electronics>10</Electronics>
-			<ElectronicComponents>2</ElectronicComponents>
+			<ElectronicComponents>3</ElectronicComponents>
     </costList>
     <comps> <!-- required for sending as drop pod -->
       <li Class="CompProperties_Transporter">
         <restEffectiveness>0.75</restEffectiveness>
-        <massCapacity>120</massCapacity>
+        <massCapacity>350</massCapacity>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS"> <!-- required for SRTS like functionality (ie. space ship reusable drop pod -->
         <travelSpeed>6</travelSpeed>
-        <fuelPerTile>1.5</fuelPerTile>
+        <fuelPerTile>1.25</fuelPerTile>
         <minPassengers>1</minPassengers>
-        <maxPassengers>1</maxPassengers>
+        <maxPassengers>2</maxPassengers>
       	<spaceFaring>false</spaceFaring>
       	<shuttleBayLanding>false</shuttleBayLanding>
       </li>
       <li Class="CompProperties_Refuelable"> <!-- comp for allowing to fuel the srts, don't remove -->
-        <fuelCapacity>600</fuelCapacity>
+        <fuelCapacity>500</fuelCapacity>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-        <initialConfigurableTargetFuelLevel>300</initialConfigurableTargetFuelLevel>
+        <initialConfigurableTargetFuelLevel>250</initialConfigurableTargetFuelLevel>
         <fuelFilter>
           <thingDefs>
             <li>Chemfuel</li>
@@ -146,7 +146,7 @@
       </li> 
     </comps>
     <researchPrerequisites> <!-- research requirements -->
-      <li>Research_SRTSComet</li>
+      <li>Research_SRTSSurveyorComet</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite> <!-- construction skill requirements -->
     <uiIconScale>0.5</uiIconScale> <!-- UI scaling -->
@@ -166,10 +166,10 @@
     </graphicData>
     <size>(6,8)</size>
     <statBases>
-      <MaxHitPoints>3000</MaxHitPoints>
-      <WorkToBuild>50000</WorkToBuild>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>30000</WorkToBuild>
       <Flammability>0</Flammability>
-      <Mass>20</Mass>
+      <Mass>55200</Mass>
       <Beauty>25</Beauty>
     </statBases>
     <costList>
@@ -247,10 +247,10 @@
     </graphicData>
     <size>(3,3)</size>
     <statBases>
-      <MaxHitPoints>850</MaxHitPoints>
+      <MaxHitPoints>1850</MaxHitPoints>
       <WorkToBuild>16000</WorkToBuild>
       <Flammability>0</Flammability>
-      <Mass>20</Mass>
+      <Mass>32220</Mass>
       <Beauty>50</Beauty>
     </statBases>
     <costList>
@@ -332,7 +332,7 @@
       <MaxHitPoints>8000</MaxHitPoints>
       <WorkToBuild>60000</WorkToBuild>
       <Flammability>0</Flammability>
-      <Mass>20</Mass>
+      <Mass>63100</Mass>
       <Beauty>75</Beauty>
     </statBases>
     <costList>
@@ -414,10 +414,10 @@
     <size>(10,10)</size>
     <rotatable>true</rotatable>
     <statBases>
-      <MaxHitPoints>20000</MaxHitPoints>
+      <MaxHitPoints>25000</MaxHitPoints>
       <WorkToBuild>100000</WorkToBuild>
       <Flammability>0</Flammability>
-      <Mass>20</Mass>
+      <Mass>125520</Mass>
       <Beauty>2000</Beauty>
     </statBases>
     <costList>
@@ -439,7 +439,7 @@
     <comps>
       <li Class="CompProperties_Transporter">
         <restEffectiveness>10</restEffectiveness>
-        <massCapacity>35000</massCapacity>
+        <massCapacity>50000</massCapacity>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS">
         <travelSpeed>10</travelSpeed>
